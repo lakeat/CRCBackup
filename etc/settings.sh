@@ -214,6 +214,7 @@ CRCSYSTEMOPENMPI)
     # make sure not the "old" mpi is used 
     # Not sure if this is necessary anymore.
     # export OPAL_PREFIX=
+	export OPENMPI_BIN_DIR=/afs/crc.nd.edu/x86_64_linux/openmpi/1.4.3/gcc-4.4.4/bin
 
     # Make sure OPENMPI_BIN_DIR is set and valid
     if [ -n "${OPENMPI_BIN_DIR}" ] && [ -d "${OPENMPI_BIN_DIR}" ] 
